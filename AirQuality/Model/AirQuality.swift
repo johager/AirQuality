@@ -82,8 +82,15 @@ struct AQData: Decodable {
 struct AQLocation: Decodable {
     let coordinates: [Double]
     
-    var lat: Double? { coordinates.first }
-    var lon: Double? { coordinates.last }
+    var lat: Double? {
+        guard coordinates.count == 2 else { return nil }
+        return coordinates[1]
+    }
+    
+    var lon: Double? {
+        guard coordinates.count == 2 else { return nil }
+        return coordinates[0]
+    }
 }
 
 struct AQCurrent: Decodable {
