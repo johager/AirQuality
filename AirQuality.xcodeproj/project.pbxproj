@@ -9,21 +9,32 @@
 /* Begin PBXBuildFile section */
 		F8D4905B27FF2EDE00DEF9C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D4905A27FF2EDE00DEF9C6 /* AppDelegate.swift */; };
 		F8D4905D27FF2EDE00DEF9C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D4905C27FF2EDE00DEF9C6 /* SceneDelegate.swift */; };
-		F8D4905F27FF2EDE00DEF9C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D4905E27FF2EDE00DEF9C6 /* ViewController.swift */; };
 		F8D4906227FF2EDE00DEF9C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D4906027FF2EDE00DEF9C6 /* Main.storyboard */; };
 		F8D4906427FF2EDF00DEF9C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D4906327FF2EDF00DEF9C6 /* Assets.xcassets */; };
 		F8D4906727FF2EDF00DEF9C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D4906527FF2EDF00DEF9C6 /* LaunchScreen.storyboard */; };
+		F8D4907327FF2FD800DEF9C6 /* AirQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D4907227FF2FD800DEF9C6 /* AirQuality.swift */; };
+		F8D4907527FF2FF600DEF9C6 /* AirQualityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D4907427FF2FF600DEF9C6 /* AirQualityController.swift */; };
+		F8D4907827FF3FC500DEF9C6 /* AirQualityError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D4907727FF3FC500DEF9C6 /* AirQualityError.swift */; };
+		F8D4907A27FF447B00DEF9C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D4907927FF447B00DEF9C6 /* ViewController.swift */; };
+		F8D4907E27FF46E200DEF9C6 /* FetchType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D4907D27FF46E200DEF9C6 /* FetchType.swift */; };
+		F8D4908027FF4CAF00DEF9C6 /* AirVisual-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8D4907F27FF4CAF00DEF9C6 /* AirVisual-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F8D4905727FF2EDE00DEF9C6 /* AirQuality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirQuality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D4905A27FF2EDE00DEF9C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8D4905C27FF2EDE00DEF9C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F8D4905E27FF2EDE00DEF9C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8D4906127FF2EDE00DEF9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8D4906327FF2EDF00DEF9C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8D4906627FF2EDF00DEF9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8D4906827FF2EDF00DEF9C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D4907227FF2FD800DEF9C6 /* AirQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQuality.swift; sourceTree = "<group>"; };
+		F8D4907427FF2FF600DEF9C6 /* AirQualityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityController.swift; sourceTree = "<group>"; };
+		F8D4907727FF3FC500DEF9C6 /* AirQualityError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityError.swift; sourceTree = "<group>"; };
+		F8D4907927FF447B00DEF9C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8D4907D27FF46E200DEF9C6 /* FetchType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchType.swift; sourceTree = "<group>"; };
+		F8D4907F27FF4CAF00DEF9C6 /* AirVisual-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirVisual-Info.plist"; sourceTree = "<group>"; };
+		F8D4908127FF4CE900DEF9C6 /* AirVisual-Info-Sample.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirVisual-Info-Sample.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +67,61 @@
 		F8D4905927FF2EDE00DEF9C6 /* AirQuality */ = {
 			isa = PBXGroup;
 			children = (
-				F8D4905A27FF2EDE00DEF9C6 /* AppDelegate.swift */,
-				F8D4905C27FF2EDE00DEF9C6 /* SceneDelegate.swift */,
-				F8D4905E27FF2EDE00DEF9C6 /* ViewController.swift */,
-				F8D4906027FF2EDE00DEF9C6 /* Main.storyboard */,
-				F8D4906327FF2EDF00DEF9C6 /* Assets.xcassets */,
-				F8D4906527FF2EDF00DEF9C6 /* LaunchScreen.storyboard */,
-				F8D4906827FF2EDF00DEF9C6 /* Info.plist */,
+				F8D4907627FF3FB200DEF9C6 /* Helpers */,
+				F8D4907127FF2FAA00DEF9C6 /* Model */,
+				F8D4907027FF2F9E00DEF9C6 /* ViewControllers */,
+				F8D4906F27FF2F9200DEF9C6 /* Views */,
+				F8D4906E27FF2F7100DEF9C6 /* Resources */,
 			);
 			path = AirQuality;
+			sourceTree = "<group>";
+		};
+		F8D4906E27FF2F7100DEF9C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8D4905A27FF2EDE00DEF9C6 /* AppDelegate.swift */,
+				F8D4905C27FF2EDE00DEF9C6 /* SceneDelegate.swift */,
+				F8D4906327FF2EDF00DEF9C6 /* Assets.xcassets */,
+				F8D4906827FF2EDF00DEF9C6 /* Info.plist */,
+				F8D4907F27FF4CAF00DEF9C6 /* AirVisual-Info.plist */,
+				F8D4908127FF4CE900DEF9C6 /* AirVisual-Info-Sample.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F8D4906F27FF2F9200DEF9C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8D4906027FF2EDE00DEF9C6 /* Main.storyboard */,
+				F8D4906527FF2EDF00DEF9C6 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8D4907027FF2F9E00DEF9C6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8D4907927FF447B00DEF9C6 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F8D4907127FF2FAA00DEF9C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8D4907227FF2FD800DEF9C6 /* AirQuality.swift */,
+				F8D4907427FF2FF600DEF9C6 /* AirQualityController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8D4907627FF3FB200DEF9C6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F8D4907727FF3FC500DEF9C6 /* AirQualityError.swift */,
+				F8D4907D27FF46E200DEF9C6 /* FetchType.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +131,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8D4906B27FF2EDF00DEF9C6 /* Build configuration list for PBXNativeTarget "AirQuality" */;
 			buildPhases = (
+				F8D4908327FF4D7700DEF9C6 /* Copy Sample AirVisual-Info Plist */,
 				F8D4905327FF2EDE00DEF9C6 /* Sources */,
 				F8D4905427FF2EDE00DEF9C6 /* Frameworks */,
 				F8D4905527FF2EDE00DEF9C6 /* Resources */,
@@ -128,19 +186,45 @@
 				F8D4906727FF2EDF00DEF9C6 /* LaunchScreen.storyboard in Resources */,
 				F8D4906427FF2EDF00DEF9C6 /* Assets.xcassets in Resources */,
 				F8D4906227FF2EDE00DEF9C6 /* Main.storyboard in Resources */,
+				F8D4908027FF4CAF00DEF9C6 /* AirVisual-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F8D4908327FF4D7700DEF9C6 /* Copy Sample AirVisual-Info Plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Sample AirVisual-Info Plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "CONFIG_FILE_BASE_NAME=\"AirVisual-Info\"\n\nCONFIG_FILE_NAME=${CONFIG_FILE_BASE_NAME}.plist\nSAMPLE_CONFIG_FILE_NAME=${CONFIG_FILE_BASE_NAME}-Sample.plist\n\nCONFIG_FILE_PATH=$SRCROOT/$PRODUCT_NAME/Resources/$CONFIG_FILE_NAME\nSAMPLE_CONFIG_FILE_PATH=$SRCROOT/$PRODUCT_NAME/Resources/$SAMPLE_CONFIG_FILE_NAME\n\nif [ -f \"$CONFIG_FILE_PATH\" ]; then\n  echo \"$CONFIG_FILE_PATH exists.\"\nelse\n  echo \"$CONFIG_FILE_PATH does not exist, copying sample\"\n  cp -v \"${SAMPLE_CONFIG_FILE_PATH}\" \"${CONFIG_FILE_PATH}\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F8D4905327FF2EDE00DEF9C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8D4905F27FF2EDE00DEF9C6 /* ViewController.swift in Sources */,
+				F8D4907A27FF447B00DEF9C6 /* ViewController.swift in Sources */,
+				F8D4907827FF3FC500DEF9C6 /* AirQualityError.swift in Sources */,
 				F8D4905B27FF2EDE00DEF9C6 /* AppDelegate.swift in Sources */,
+				F8D4907327FF2FD800DEF9C6 /* AirQuality.swift in Sources */,
+				F8D4907527FF2FF600DEF9C6 /* AirQualityController.swift in Sources */,
 				F8D4905D27FF2EDE00DEF9C6 /* SceneDelegate.swift in Sources */,
+				F8D4907E27FF46E200DEF9C6 /* FetchType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +373,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 37H8X6K6NN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AirQuality/Info.plist;
+				INFOPLIST_FILE = AirQuality/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +401,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 37H8X6K6NN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AirQuality/Info.plist;
+				INFOPLIST_FILE = AirQuality/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
