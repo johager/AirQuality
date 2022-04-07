@@ -2,7 +2,7 @@
 
 This is the Devmountain iOS App Developer Bootcamp code-along exercise AirQuality app.
 
-The app obtains air quality data from the IQ Air API https://www.iqair.com/commercial/air-quality-monitors/airvisual-platform/api).
+The app obtains air quality data from the IQ Air API: https://www.iqair.com/commercial/air-quality-monitors/airvisual-platform/api.
 
 The code in this repo has been heavily modified compared to the suggested code.
 
