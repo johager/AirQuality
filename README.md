@@ -16,6 +16,10 @@ The code in this repo has been heavily modified compared to the suggested code.
 
 - The AirQualityController uses .map instead of a for-loop to extract country names, state names, and city names.
 
+- The StateListViewController and CityListViewController have a title of the country or state, respectively.
+
+- The CityDataViewController data has been converted to Imperial units and formatted nicely.
+
 
 ### Technoloy
 
